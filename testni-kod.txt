@@ -1,0 +1,7 @@
+import urllib
+
+url = "https://www.youtube.com/neki_link"     
+
+download = urllib.urlretrieve(url, "a.mp3")
+
+download
